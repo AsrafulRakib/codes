@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dynamicdriller.bdtv.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_tvViewFragment"
+            app:destination="@id/tvViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tvViewFragment"
+        android:name="com.dynamicdriller.bdtv.TvViewFragment"
+        android:label="fragment_tv_view"
+        tools:layout="@layout/fragment_tv_view" >
+        <action
+            android:id="@+id/action_tvViewFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+</navigation>

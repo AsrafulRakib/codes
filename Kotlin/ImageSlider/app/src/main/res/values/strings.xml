@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageSlider</string>
+    <string name="choose_preview_label">Choose Preview</string>
+</resources>

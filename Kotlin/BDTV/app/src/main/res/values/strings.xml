@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BD TV</string>
+    <string name="shomoy_tv">Somoy TV</string>
+    <string name="jamuna_tv">Jamuna TV</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="independent_tv">Independent TV</string>
+    <string name="dbc_news">DBC News</string>
+    <string name="channel_24">Channel 24</string>
+    <string name="atn_news">ATN News</string>
+    <string name="watch_live_tv_here">Watch Live TV Here!</string>
+    <string name="sony_sports_ten_2">Sony Sports Ten 2</string>
+</resources>
